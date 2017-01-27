@@ -1,4 +1,7 @@
 # 6lbr-on-Telecontrolli-Devices
+
+Tested with Contiki-develop-20161222
+
 Contiki is an open source Operating System that connects tiny low-power microcontrollers to the Internet and allows to develope a wild range of applications (which have an efficient use in the Hardware), providing powerful low-power wireless communication. 
 Telecontrolli srl developed a Contiki-based application for its own Smart Devices (CC1310-based):
 - X.IP4T SmartModule
