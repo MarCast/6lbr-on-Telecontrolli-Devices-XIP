@@ -20,17 +20,29 @@ Devices setting Procedure:
 1.	Download Contiki OS
 2. Type, in the Raspberry terminal, the following commands to install the "6lbr":
    -"cd"
+   
    -sudo git clone --recursive https://github.com/cetic/6lbr -b develop-20170121
+   
    -cd 6lbr
+   
    -sudo git submodule update --init --recursive
+   
    -cd examples/6lbr
+   
    -git checkout develop-20170121
+   
    -make all #all_native for version <1.4
+   
    -sudo make plugins
+   
    -sudo make tools
+   
    -sudo make install
+   
    -sudo make plugins --install
+   
    -update -rc.d 6lbr defaults
+   
 3.	Download “6lbr-on-Telecontrolli-Devices-XIP” from this repository
 4.	Replace the folder “cc26xx” in “home/pi/contiki/example/cc26xx” with the folder “cc26xx” you find in “6lbr-on-Telecontrolli-Devices-XIP”
 5.	Replace the folder “dev” in “home/pi/contiki/core/dev” with the folder “dev” you find in “6lbr-on-Telecontrolli-Devices-XIP”
