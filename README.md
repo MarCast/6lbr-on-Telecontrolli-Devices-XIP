@@ -1,8 +1,8 @@
 #6lbr-on-Telecontrolli-Devices V1.0
 
--V1.0: This version contains the Contiki OS adapted on X.IP4T/X.IP5 devices.
+-V1.0: This version contains the Contiki OS adapted for X.IP4T/X.IP5 devices.
 
--V1.1: This version contains the Contiki OS with the addition of the output management, adapted on X.IP4T / X.IP5 devices.
+-V1.1: This version contains the Contiki OS with the addition of the output management, adapted for X.IP4T / X.IP5 devices.
 
 Tested with Contiki-develop-20170121
 
@@ -15,9 +15,9 @@ This application v1.0 enables communication for sensors reading and Devices acti
 
 Devices setting Procedure:
 
-- Download Contiki OS
+1) Download Contiki OS
 
-- Type, in the Raspberry terminal, the following commands to install the "6lbr": 
+2) Type, in the Raspberry terminal, the following commands to install the "6lbr": 
 
 -sudo git clone --recursive https://github.com/cetic/6lbr -b develop-20170121
 
@@ -41,13 +41,16 @@ Devices setting Procedure:
 
 -update -rc.d 6lbr defaults
 
-- Download “6lbr-on-Telecontrolli-Devices-XIP” from this repository
+3) Download “6lbr-on-Telecontrolli-Devices-XIP” from this repository
 
-- Replace the folder “cc26xx” in “home/pi/contiki/example/cc26xx” with the folder “cc26xx” you find in “6lbr-on-Telecontrolli-Devices-XIP”
-- Replace the folder “dev” in “home/pi/contiki/core/dev” with the folder “dev” you find in “6lbr-on-Telecontrolli-Devices-XIP”
-- Replace the folders “slip-radio” and “rpl-border-router” in “home/pi/contiki/examples/ipv6” with the folders “slip-radio” and “rpl-border-router” you find in “6lbr-on-Telecontrolli-Devices-XIP”
-- Replace the folder “srf06” in “home/pi/contiki/platform/srf06-cc26xx/srf06” with the folder “srf06” you find in “6lbr-on--      Telecontrolli-Devices-XIP”. This folder includes “board.h”.
+4) Replace the folder “cc26xx” in “home/pi/contiki/example/cc26xx” with the folder “cc26xx” you find in “6lbr-on-Telecontrolli-Devices-XIP”
+5) Replace the folder “dev” in “home/pi/contiki/core/dev” with the folder “dev” you find in “6lbr-on-Telecontrolli-Devices-XIP”
+6) Replace the folders “slip-radio” and “rpl-border-router” in “home/pi/contiki/examples/ipv6” with the folders “slip-radio” and “rpl-border-router” you find in “6lbr-on-Telecontrolli-Devices-XIP”
+7) Replace the folder “srf06” in “home/pi/contiki/platform/srf06-cc26xx/srf06” with the folder “srf06” you find in “6lbr-on--      Telecontrolli-Devices-XIP”. This folder includes “board.h”.
+  
 Find below the X.IP4T e X.IP5 datasheetX.IP4T
 
-X.ip4T SmartModule http://www.telecontrolli.com/resource/downloads/datasheet/iot-system/x-ip-transceiver-family/81-x- ip4t-datasheet/file.html
-X.ip5 SmartMachine http://www.telecontrolli.com/resource/downloads/datasheet/iot-system/x-ip-transceiver-family/82-x-ip5-datasheet/file.html
+- X.ip4T SmartModule 
+http://www.telecontrolli.com/resource/downloads/datasheet/iot-system/x-ip-transceiver-family/81-x- ip4t-datasheet/file.html
+- X.ip5 SmartMachine 
+http://www.telecontrolli.com/resource/downloads/datasheet/iot-system/x-ip-transceiver-family/82-x-ip5-datasheet/file.html
