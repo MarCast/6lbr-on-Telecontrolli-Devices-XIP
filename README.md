@@ -54,6 +54,6 @@ Devices setting Procedure:
 Find below the X.IP4T e X.IP5 datasheetX.IP4T
 
 - X.ip4T SmartModule 
-http://www.telecontrolli.com/resource/downloads/datasheet/iot-system/x-ip-transceiver-family/81-x- ip4t-datasheet/file.html
+http://www.telecontrolli.com/resource/downloads/datasheet/iot-system/x-ip-transceiver-family/81-x-ip4t-datasheet/file.html
 - X.ip5 SmartMachine 
 http://www.telecontrolli.com/resource/downloads/datasheet/iot-system/x-ip-transceiver-family/82-x-ip5-datasheet/file.html
