@@ -1,6 +1,7 @@
 # 6lbr-on-Telecontrolli-Devices V1.1
 
--V1.0: This version contains the Contiki OS adapted on X.IP4T/X.IP5 devices
+-V1.0: This version contains the Contiki OS adapted on X.IP4T/X.IP5 devices.
+
 -V1.1: This version contains the Contiki OS with the addition of the output management, adapted on X.IP4T / X.IP5 devices.
 
 
