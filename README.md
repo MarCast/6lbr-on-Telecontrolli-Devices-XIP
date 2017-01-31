@@ -1,6 +1,6 @@
 #6lbr-on-Telecontrolli-Devices V1.1
 
-This version contains the Contiki OS with the addition of the output management, adapted to X.IP4T / X.IP5 devices. In the folder "cc13xx" (located in platform/srf06-cc26xx/srf06) you find the file board.h. You added the pins IOID_14 to control the output LEDs.
+This version contains the Contiki OS with the addition of the output management, adapted to X.IP4T / X.IP5 devices. In the folder "cc13xx" (located in platform/srf06-cc26xx/srf06) you find the file board.h. Pin IOID_14 added to control the output LEDs.
 
 Tested with Contiki-develop-20170121
 
