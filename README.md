@@ -44,3 +44,6 @@ Devices setting Procedure:
 
 7) Replace the folder “srf06” in “home/pi/contiki/platform/srf06-cc26xx/srf06” with the folder “srf06” you find in “6lbr-on--      Telecontrolli-Devices-XIP”. This folder includes “board.h”.
 
+
+Feel free to contact our team at: 
+support@telecontrolli.com
